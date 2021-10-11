@@ -21,8 +21,8 @@ public class URLReader {
         try {
 
             // Create a file and a password representation
-            File trustStoreFile = new File("keystores/myTrustStore");
-            char[] trustStorePassword = "567890".toCharArray();
+            File trustStoreFile = new File("myTrustStore");
+            char[] trustStorePassword = "654321".toCharArray();
 
             // Load the trust store, the default type is "pkcs12", the alternative is "jks"
             KeyStore trustStore = KeyStore.getInstance(KeyStore.getDefaultType());
@@ -47,7 +47,7 @@ public class URLReader {
             SSLContext.setDefault(sslContext);
 
             // We can now read this URL
-            readURL("https://localhost:5000/hello");
+            readURL("https://localhost:4567/hello");
 
             // This one can't be read because the Java default truststore has been
             // changed.
