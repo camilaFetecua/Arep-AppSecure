@@ -14,10 +14,6 @@ remotos  el cual debe garantizar autenticación, autorización e integridad entr
   de simplificar los procesos de build (compilar y generar ejecutables a partir del código
   fuente).
   
-  + **Docker:** Programa encargado de crear contenedores ligeros y portables para las aplicaciones 
-  software que puedan ejecutarse en cualquier máquina con Docker instalado, independientemente 
-  del sistema operativo que la máquina tenga por debajo, facilitando así también los despliegues.
-  
   + **Java:** Java es un lenguaje de programación y una plataforma informática, con Java pueden realizarse
   programas en cualquier contexto y ambiente , siendo la portabilidad uno de sus principales logros.
   
@@ -47,7 +43,6 @@ remotos  el cual debe garantizar autenticación, autorización e integridad entr
    ![Imagen](https://github.com/camilaFetecua/Arep-AppSecure/blob/master/Imagenes/1.PNG)
    
    ![Imagen]( https://github.com/camilaFetecua/Arep-AppSecure/blob/master/Imagenes/2.PNG)
-  
   
   
   Se crea el MyTrueStore 
