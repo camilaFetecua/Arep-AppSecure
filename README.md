@@ -42,23 +42,29 @@ remotos  el cual debe garantizar autenticación, autorización e integridad entr
   ## Arquitectura 
   
    Se tiene un login con un acceso encriptado de la contraseña para obtener el ingreso al servicio web.
+   Se crearon las llaves y el certificado, lo cual hace que tengamos un servicio web seguro.
    
+   ![Imagen](https://github.com/camilaFetecua/Arep-AppSecure/blob/master/Imagenes/1.PNG)
    
-   
-  Se crearon las llaves y el certificado, lo cual hace que tengamos un servicio web seguro.
+   ![Imagen]( https://github.com/camilaFetecua/Arep-AppSecure/blob/master/Imagenes/2.PNG)
   
   
   
   Se crea el MyTrueStore 
   
+   ![Imagen](https://github.com/camilaFetecua/Arep-AppSecure/blob/master/Imagenes/3.PNG)
+  
   
   Se sube la imagen a docker y se corrre la imagen 
-  
+   ![Imagen](https://github.com/camilaFetecua/Arep-AppSecure/blob/master/Imagenes/4.PNG)
   
   Se prueba que los certificados y las llaves esten funcionando 
   
+   ![Imagen](https://github.com/camilaFetecua/Arep-AppSecure/blob/master/Imagenes/6.PNG)
   
   En la instancia de AWS se instala docker y se corre la imagen.
+  
+  ![Imagen](https://github.com/camilaFetecua/Arep-AppSecure/blob/master/Imagenes/5.PNG)
   
   
   
